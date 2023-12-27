@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a4366;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 90px;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    transition: 0.6s ease-out;
+}
+
+.search-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.search-box input {
+    width: 80%;
+    padding-left: 35px;
+    text-transform: uppercase;
+    font-size: 22px;
+    outline: none;
+    background: white;
+}
+
+
+.search-box input::placeholder {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+
+}
+
+.search-box i {
+    position: absolute;
+    color: black;
+    font-size: 25px;
+}
+
+.search-box button {
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    background: #5490b4;
+    font-size: large;
+    transition: 0.2s ease-in;
+}
+
+.search-box button:hover {
+    background: #3f708e;
+}
+
+
+.error img {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    width: 80%;
+    display: none;
+
+}
+
+.error h3 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: none;
+}
+
+.weather-box {
+    text-align: center;
+}
+
+.weather-box img {
+    width: 68%;
+    margin-top: 10px;
+
+}
+
+.weather-box .temperature {
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #0a4366;
+    
+
+}
+
+.weather-box .temperature span {
+    font-size: 21px;
+    font-weight: 700;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+
+.weather-box .description {
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: #0a4366;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.weather-details {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-details .humidity {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.weather-details .wind {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.humidity i,
+.wind i {
+    font-size: 27px;
+    font-weight: 900;
+    color: #3f708e;
+    margin-right: 10px;
+    margin-top: 12px;
+
+}
+
+.text span {
+    color: #0a4366;
+    font-size: 21px;
+    font-weight: 800;
+}
+.text p{
+    font-size:21px;
+    font-weight: 600;
+    color:black;
+
+}
