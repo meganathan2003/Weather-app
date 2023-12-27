@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
             errorImg.style.display = 'none';
+            errortxt.style.display = 'none';
 
             const image = document.querySelector('.weather-box img');
             const description = document.querySelector('.description');
